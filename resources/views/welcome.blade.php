@@ -8,6 +8,6 @@
 </h1>
 
 <h2>
-    Ciao {{ $firstName }} {{ $lastName }}
+    Ciao , pagina welcome 
 </h2>
 @endsection

@@ -1,15 +1,46 @@
 @import "~bootstrap/scss/bootstrap";
 
-main {
-    background-color: lightcoral;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
 }
 
-.gatto-img {
-    height: 200px;
+a{
+    text-decoration: none;
 }
 
-.gatto-bg {
-    height: 200px;
-    background-image: url('../img/gatto.webp');
-    background-size: contain;
+img{
+    width: 100%;
+    height: 100%;
 }
+//HEADER
+
+.upper-colored-nav{
+    background-color: #1782F9;
+    height: 20px;
+}
+.jumbotron{
+    background-image: url(../img/jumbotron.jpg);
+    min-height: 300px;
+    background-size: cover;
+}
+
+// FOOTER
+.footer-top{
+    background-image: url(../img/footer-bg.jpg);
+    height: 400px;
+}
+
+.title{
+    font-weight: bold;
+    color: white;
+};
+
+
+.link-list{
+    color:gray;
+}
+
